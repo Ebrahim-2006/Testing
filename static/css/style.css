@@ -1,0 +1,73 @@
+/* CREATED AND MENTAINED BY: EBRAHIM HMMAD */
+/*https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2*/
+
+@font-face {
+  font-family: SF-Pro;
+  src: url(../../fonts/SF-Pro.woff2) format("woff2-variations");
+}
+
+:root {
+  /* colors */
+  --base-black: #000000;
+  --base-white: #ffffff;
+  --primary: #86868b;
+  --primary-hover: #d2d2d7;
+  --secondary: #f5f5f7;
+  --section: #161617;
+  --primary-w: #1d1d1f;
+  --secondary-w: #6e6e73;
+  --detail-w: #454547;
+
+  /* font-sizes */
+  --fs-200: 0.75rem;
+  --fs-300: 0.875rem;
+  --fs-400: 1rem;
+  --fs-500: 1.5rem;
+  --fs-600: 1.75rem;
+  --fs-700: 2rem;
+  --fs-800: 3rem;
+  --fs-900: 4rem;
+  --fs-xl: 5rem;
+
+  /* glass */
+  --glass-background: #ffffff05;
+  --glass-border: 1px linear-gradient(45deg, #ffffff0d, #ffffff, #ffffff0d);
+  --glass-boxshadow: 0px -2px 4px 0px #ffffff66, 0px 2px 4px 0px #00000033;
+  --glass-backdrop-filter: blur(10px);
+  --card-border-radius: 27px;
+}
+
+* {
+  font-family: SF-Pro;
+  font-size: var(--fs-400);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: var(--fs-xl);
+}
+h2 {
+  font-size: var(--fs-900);
+}
+h3 {
+  font-size: var(--fs-800);
+}
+h4 {
+  font-size: var(--fs-700);
+}
+h5 {
+  font-size: var(--fs-600);
+}
+h6 {
+  font-size: var(--fs-500);
+}
+p {
+  font-size: var(--fs-400);
+}
+/*
+body {}
+header {}
+nav {}
+main {}
+footer {}
+*/
