@@ -1,9 +1,25 @@
 /* CREATED AND MENTAINED BY: EBRAHIM HMMAD */
-/*https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2*/
 
 @font-face {
-  font-family: SF-Pro;
-  src: url(../../fonts/SF-Pro.woff2) format("woff2-variations");
+  font-family: SF Pro Display;
+  font-weight: 400;
+  src: url(../../fonts/sf-pro-display_regular.woff2);
+}
+@font-face {
+  font-family: SF Pro Display;
+  font-weight: 600;
+  src: url(../../fonts/sf-pro-display_semibold.woff2);
+}
+
+@font-face {
+  font-family: SF Pro Text;
+  font-weight: 400;
+  src: url(../../fonts/sf-pro-text_regular.woff2);
+}
+@font-face {
+  font-family: SF Pro Text;
+  font-weight: 600;
+  src: url(../../fonts/sf-pro-text_semibold.woff2);
 }
 
 :root {
@@ -38,7 +54,7 @@
 }
 
 * {
-  font-family: SF-Pro;
+  font-family: SF Pro Text;
   font-size: var(--fs-400);
   font-weight: 400;
 }
